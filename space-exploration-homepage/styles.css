@@ -1,0 +1,52 @@
+body{
+    color: #323c63;
+    font-family: "Orbitron", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.explore{
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    font-family: "Orbitron", sans-serif;
+    text-shadow: 0px 0px 10px black;
+}
+
+.apply-btn{
+    display: block;
+    margin: 20px auto;
+    padding: 20px 40px;
+    background-color: black;
+    color:#e1d4d4;
+    font-size: 30px;
+    font-family: "Orbitron", sans-serif;
+}
+
+
+.orbitron-explore {
+    text-decoration: underline;
+}
+
+#spacex-logo {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+}
+
+#hero{
+    flex: 1;
+    background-image: url('images/spacex.gif');
+    background-size: cover;
+    background-position: center;
+    padding: 0px 0px 100px 0px;
+}
+
+h3{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+     color: #323c63;
+}
