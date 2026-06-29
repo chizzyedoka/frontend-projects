@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Bloomberg Interview Resources",
+    "version": "1.0",
+    "description": "A simple Chrome extension.",
+    "permissions": [
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "images/bloomberg-icon-16.png",
+            "32": "images/bloomberg-icon-32.png"
+        }
+    },
+    "icons": {
+        "16": "images/bloomberg-icon-16.png",
+        "32": "images/bloomberg-icon-32.png",
+        "48": "images/bloomberg-icon-48.png",
+        "128": "images/bloomberg-icon-128.png"
+    }
+}
